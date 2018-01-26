@@ -1,0 +1,614 @@
+"items": [
+    {
+        "bacteria": [
+            {
+                "name": "Acidobacterium Capsulatum",
+                "description": "Rub dirt in their wounds!",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Holophaga Foetida ",
+                "description": "Don’t breath!",
+                "cost": 0,
+                "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": -0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Geothrix Fermentans",
+                "description": "Hope you don’t mind getting your feet wet.",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.001
+                    }
+                ]
+            },
+            {
+                "name": "Acanthopleuribacter Pedis",
+                "description": "Just dipping your toes in.",
+                "cost": 0,
+                "resource": 5,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bryobacter Aggregatus",
+                "description": "I love the smell of aerobic cells in the morning.",
+                "cost": 0,
+                "resource": 1,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Acidothermus Cellulolyticus",
+                "description": "Yellowstone’s hot tub champion.",
+                "cost": 0,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.01
+                    }
+                ]
+            },
+            {
+                "name": "Aquificae",
+                "description": "Wet wet wet! ",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            },
+            {
+                "name": "Armatimonas Rosea",
+                "description": "Nothing like a fresh lake of water.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Chthonomonas Calidirosea",
+                "description": "Hot from the mouth of Hell’s Gate.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bacteroidetes",
+                "description": "These can come from either side.",
+                "cost": 0,
+                "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Caldisericum Exile",
+                "description": "Be hot, be unique.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            },
+            {
+                "name": "Chlamydiae",
+                "description": "You know what this is…",
+                "cost": 0,
+                "resource": 1,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.075
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Chlorobi",
+                "description": "We’ve got to go deeper!",
+                "cost": 0,
+                "resource": 5,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.05
+                    }
+                ]
+            },
+            {
+                "name": "Chloroflexi",
+                "description": "Let it shine!",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.001
+                    }
+                ]
+            },
+            {
+                "name": "Chrysiogenes arsenatis",
+                "description": "Oxygen or arsenic? It’s all the same to me.",
+                "cost": 0,
+                "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.0025
+                    }
+                ]
+            },
+            {
+                "name": "Deferribacteres",
+                "description": "Just charge me up and see me go.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Deinococcus-Thermus",
+                "description": "Thick skinned but a softie inside.",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.075
+                    }
+                ]
+            },
+            {
+                "name": "Dictyoglomus Thermophilum",
+                "description": "Is it hot in here or is it just me?",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.075
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            },
+            {
+                "name": "Elusimicrobia",
+                "description": "You’re never more than 30ft away.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Fibrobacter Succinogenes",
+                "description": "Get those gains!",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            },
+            {
+                "name": "Firmicutes",
+                "description": "Letting the guard down.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.01
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": -0.005
+                    }
+                ]
+            },
+            {
+                "name": "Fusobacteria",
+                "description": "Don’t let this touch you.",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            },
+            {
+                "name": "Gemmatimonadetes",
+                "description": "Don’t you step on me!",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.025
+                    }
+                ]
+            },
+            {
+                "name": "Lentisphaerae",
+                "description": "I’ve just got that gut feeling, ya know?",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.01
+                    }
+                ]
+            },
+            {
+                "name": "Nitrospirae",
+                "description": "I’m not lonely, I’m unique.",
+                "cost": 0,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.001
+                    }
+                ]
+            },
+            {
+                "name": "Planctomycetes",
+                "description": "I’m a budding bacteria!",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Proteobacteria",
+                "description": "I’m kind of a big deal.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.05
+                    }
+                ]
+            },
+            {
+                "name": "Spirochaetes",
+                "description": "Did you just assume my structure?",
+                "cost": 0,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Synergistetes",
+                "description": "I’m an opportunist.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Tenericutes",
+                "description": "I bruise easily.",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": -0.001
+                    }
+                ]
+            },
+            {
+                "name": "Thermodesulfobacteria",
+                "description": "He who smelt it…",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.01
+                    }
+                ]
+            },
+            {
+                "name": "Thermotogae",
+                "description": "Boiled up nicely.",
+                "cost": 0,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.075
+                    }
+                ]
+            },
+            {
+                "name": "Verrucomicrobia",
+                "description": "Don’t look at me!",
+                "cost": 0,
+                "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cell Division",
+                "description": "Everyone has to start somewhere.",
+                "cost": 10,
+                "resource": 0.1,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Transmission",
+                "description": "Gets you from A to B.",
+                "cost": 100,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Heterocysts",
+                "description": "Don’t let the air get you down.",
+                "cost": 1000,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Thermophilic",
+                "description": "It’s getting hot in here!",
+                "cost": 10000,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bioaerosols",
+                "description": "Take a deep breath!",
+                "cost": 100000,
+                "resource": 1000,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+        ]
+    }
+]
