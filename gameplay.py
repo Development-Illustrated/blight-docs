@@ -1,5 +1,23 @@
 import numpy as np
 import time
+
+class Player(object):
+    """docstring for Player"""
+    def __init__(self, name, team, location, items, resources):
+        self.name = name
+        self.team = team
+        self.location = []
+        self.items = items
+        self.resources = resources
+
+class Items(Player):
+    """docstring for Items"""
+    def __init__(self):
+        super(Items, self).__init__(self)
+        self.itemResourceRate = itemResourceRate
+        self.itemContagion = itemContagion
+        self.itemImmunity = itemImmunity
+
 # plenty of things will not work but I will try to fix them
 # playerLocation = [x1, y1], x1 and y1 being their coordinates, 100 being metres away
 def calcDist:
@@ -7,10 +25,6 @@ def calcDist:
         return dist = sqrt( (x2 - x1)**2 + (y2 - y1)**2)
     else:
         return None
-
-itemContagion = []
-itemImmunity = []
-itemResourceRate = []
 # resource counter per second
 def playerResourceIncrease(resources, itemResourceRate):
     resources += itemResourceRate
@@ -24,7 +38,6 @@ def calcPlayerResourcePressure(resources, itemContagion):
         return pressure = 0.05 * itemContagion
 
 # for players with in dist, calculate the effect they have on the player
-players = []
 def calcPlayerResourceEfficiency(players, itemImmunity):
     if players in dist:
         if players == team:
