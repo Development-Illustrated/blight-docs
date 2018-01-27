@@ -1,0 +1,47 @@
+Area of influence: 200 metres
+Maximum pressure applied by people: -0.05 at 100000 resources
+    -0.0000005 pressure applied per resources
+Maximum resource count modifier applied to people -0.75
+Maximum resource count modifier to enemies by landmark -0.5
+Maximum resource count modifier to allies by landmark +0.5
+
+The Maths:
+Area of effect = 2 * pi * 100 metres
+Player pressure applied =
+if resources < 100000
+    pressure applied = -0.0000005 * resource count
+else
+    pressure applied = -0.05
+
+Maximum resource count modifier applied to people =
+allies total resources = your resources
+opponents total resources = 0
+for each (players as player)
+    if distance < 2 * pi * 100 metres
+        if player team == your team
+            allies modifier = allies total resources * (0.0000005 * resource count)
+        if player team == other team
+            opponents modifier = opponents total resources * (0.0000005 * resource count)
+
+players pressure applied:
+effective modifier = 1 + allies modifier - opponents modifier
+if effective modifier > -0.75
+    return effective modifier
+else
+    effective modifier = -0.75
+
+if effective modifier < 1.75
+    return effective modifier
+else
+    effective modifier 1.75
+
+Landmark growth
+if resources > 10000
+    resources growth = -300 resources/s
+else if resources < 10000
+    resources growth = +300 resources/s
+else resources = 10000
+    resources growth = 0.
+
+If we want the effect to be more powerful the closer you are to someone:
+r = resources, x = distance, r_t = current player resource count
