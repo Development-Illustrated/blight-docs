@@ -8,7 +8,7 @@ def calcDist(x2, y2):
         dist = np.sqrt( (x2 - 0)**2 + (y2 - 0)**2) < 100
         print(dist)
         return dist
-    
+
 # resource counter per second
 def playerResourceIncrease(resources, itemResourceRate):
     resources += itemResourceRate
@@ -40,8 +40,4 @@ def calcPlayerResourceEfficiency(itemImmunity):
     elif effectiveMod >= 1.75:
         effectiveMod = 1.75
         return effectiveMod
-
-
-echo = calcPlayerResourceEfficiency(0)
-print (echo)
 
