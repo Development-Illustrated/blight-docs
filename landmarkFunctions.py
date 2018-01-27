@@ -26,7 +26,7 @@ def landmarkPressureInfluence(landmarkMod, effectiveMod, landmarks):
 # landmark growth rate
 def landmarkResourceRate(itemResourceRate, itemImmunity, landmarkResources):
     if (300 - itemResourceRate) > 0:
-        decayRate = (300 - itemResourceRate) * itemImmunity
+        decayRate = (300 - itemResourceRate) * (1 + itemImmunity)
     elif (300 - itemResourceRate) <= 0:
         decayRate = 5
     while landmarkResources > 10000:
