@@ -18,7 +18,7 @@
                 ]
             },
             {
-                "name": "Holophaga Foetida ",
+                "name": "Holophaga Foetida",
                 "description": "Don’t breath!",
                 "cost": 0,
                 "resource": 50,
@@ -174,22 +174,6 @@
                     {
                         "type": "immunity",
                         "amount": 0.005
-                    }
-                ]
-            },
-            {
-                "name": "Chlamydiae",
-                "description": "You know what this is…",
-                "cost": 0,
-                "resource": 1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.075
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
                     }
                 ]
             },
@@ -596,6 +580,600 @@
             {
                 "name": "Bioaerosols",
                 "description": "Take a deep breath!",
+                "cost": 100000,
+                "resource": 1000,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+        ],
+        "virus": [
+            {
+                "name": "Aichi",
+                "description": "Clear a path, make way!",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": -0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Banna",
+                "description": "Person, farm animals, whatever.",
+                "cost": 0,
+                "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cercopithecine",
+                "description": "Just try to pet those monkeys.",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.001
+                    }
+                ]
+            },
+            {
+                "name": "Coxsackie",
+                "description": "Don't lock up now.",
+                "cost": 0,
+                "resource": 5,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.01
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cowpox",
+                "description": "And we thought chickens had it bad.",
+                "cost": 0,
+                "resource": 1,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Ebola",
+                "description": "Why not come give me a big hug.",
+                "cost": 0,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.001
+                    }
+                ]
+            },
+            {
+                "name": "SARS",
+                "description": "You know what they call bats... deadly.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.05
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Fever",
+                "description": "Not as colourful as it sounds.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Zika",
+                "description": "Save the best till last.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Variola",
+                "description": "Nothing small about these pox.",
+                "cost": 0,
+                "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Epstein-Barr",
+                "description": "Really raising the Barr for viruses",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            },
+            {
+                "name": "Rubella",
+                "description": "Not as bad as the other two.",
+                "cost": 0,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Rabies",
+                "description": "Why not pet that foaming dog.",
+                "cost": 0,
+                "resource": 5,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.05
+                    }
+                ]
+            },
+            {
+                "name": "O’nyong-nyong",
+                "description": "No this isn't dengue fever.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.001
+                    }
+                ]
+            },
+            {
+                "name": "Dengue",
+                "description": "Simplistic but effective.",
+                "cost": 0,
+                "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.0025
+                    }
+                ]
+            },
+            {
+                "name": "Encephalomyocarditis",
+                "description": "Might have to think twice about that transplant.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Hantaan",
+                "description": "Good things always come from the river banks.",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.075
+                    }
+                ]
+            },
+            {
+                "name": "Influenza",
+                "description": "And you thought it was just a cold.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "MERS",
+                "description": "Don't let those signs go unchecked.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            },
+            {
+                "name": "Measles",
+                "description": "Scratch it, feels so good!",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.01
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": -0.005
+                    }
+                ]
+            },
+            {
+                "name": "Mumps",
+                "description": "You've all been so kind.",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            },
+            {
+                "name": "Molluscum Contagiosum",
+                "description": "Just sit it out, you don't look so silly.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            },
+            {
+                "name": "Rift Valley Fever",
+                "description": "Maybe you shouldn't go down to the valley today.",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.01
+                    }
+                ]
+            },
+            {
+                "name": "Simian Virus 5",
+                "description": "Because the first 4 weren't quite right",
+                "cost": 0,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.001
+                    }
+                ]
+            },
+            {
+                "name": "Uukuniemi",
+                "description": "Just call me plague mk.2",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Norovirus",
+                "description": "I’m kind of a big deal.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.05
+                    }
+                ]
+            },
+            {
+                "name": "Polio",
+                "description": "I'm sure you've heard of me.",
+                "cost": 0,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.075
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Oropouche",
+                "description": "Nothing slow about this one.",
+                "cost": 0,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sagiyama",
+                "description": "Some of the old ones still pack punch.",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": -0.001
+                    }
+                ]
+            },
+            {
+                "name": "Vesicular Stomatitis",
+                "description": "You'll be fine, those cows however...",
+                "cost": 0,
+                "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.01
+                    }
+                ]
+            },
+            {
+                "name": "Puumala",
+                "description": "Rats had the plague, what would voles have?",
+                "cost": 0,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.075
+                    }
+                ]
+            },
+            {
+                "name": "Duvenhage",
+                "description": "And you though rabies was bad.",
+                "cost": 0,
+                "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sneezing",
+                "description": "Everyone has to start somewhere.",
+                "cost": 10,
+                "resource": 0.1,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Gastrointestinal",
+                "description": "Gets you from on track",
+                "cost": 100,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Blood transfusion",
+                "description": "Sharing is caring.",
+                "cost": 1000,
+                "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Insects",
+                "description": "Nasty to look, great to ride.",
+                "cost": 10000,
+                "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Proximity",
+                "description": "I love a big crowd.",
                 "cost": 100000,
                 "resource": 1000,
                 "modifiers": [
