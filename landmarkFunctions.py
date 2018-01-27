@@ -29,19 +29,17 @@ def landmarkResourceRate(itemResourceRate, itemImmunity, landmarkResources):
         decayRate = (300 - itemResourceRate) * (1 + itemImmunity)
     elif (300 - itemResourceRate) <= 0:
         decayRate = 5
-    while landmarkResources > 10000:
+    while landmarkResources > 0:
         landmarkResources -= decayRate
-        if (landmarkResources - decayRate) < 10000:
-            diff = landmarkResources - 10000
-            landmarkResources = landmarkResources - diff
+        if (landmarkResources - decayRate) < 0:
+            landmarkResources = 0
         # put in a delay of 60 seconds
-    while landmarkResources < 10000:
+    while landmarkResources < 0:
         landmarkResources += decayRate
-        if (landmarkResources + decayRate) < 10000:
-            diff = landmarkResources - 10000
-            landmarkResources = landmarkResources + diff
+        if (landmarkResources + decayRate) < 0:
+            landmarkResources = 0
         # put in a delay of 60 seconds
-    while landmarkResources == 10000:
+    while landmarkResources == 0:
         landmarkResources
 
 
