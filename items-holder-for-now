@@ -1,0 +1,835 @@
+// {
+            //     "name": "Chthonomonas Calidirosea",
+            //     "desc": "Hot from the mouth of Hell’s Gate.",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.05
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Bacteroidetes",
+            //     "desc": "These can come from either side.",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 50,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.025
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Caldisericum Exile",
+            //     "desc": "Be hot, be unique.",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.005
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Chlorobi",
+            //     "desc": "We’ve got to go deeper!",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 5,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.05
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Chloroflexi",
+            //     "desc": "Let it shine!",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.001
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Chrysiogenes arsenatis",
+            //     "desc": "Oxygen or arsenic? It’s all the same to me.",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 50,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.0025
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Deferribacteres",
+            //     "desc": "Just charge me up and see me go.",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.005
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Deinococcus-Thermus",
+            //     "desc": "Thick skinned but a softie inside.",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.075
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Dictyoglomus Thermophilum",
+            //     "desc": "Is it hot in here or is it just me?",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.075
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.005
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Elusimicrobia",
+            //     "desc": "You’re never more than 30ft away.",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.05
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Fibrobacter Succinogenes",
+            //     "desc": "Get those gains!",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.005
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Firmicutes",
+            //     "desc": "Letting the guard down.",
+            // "type": "miner",//
+            // "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.01
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": -0.005
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Fusobacteria",
+            //     "desc": "Don’t let this touch you.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.05
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.005
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Gemmatimonadetes",
+            //     "desc": "Don’t you step on me!",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.025
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Lentisphaerae",
+            //     "desc": "I’ve just got that gut feeling, ya know?",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.01
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Nitrospirae",
+            //     "desc": "I’m not lonely, I’m unique.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 10,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.001
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.001
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Planctomycetes",
+            //     "desc": "I’m a budding bacteria!",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.005
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Proteobacteria",
+            //     "desc": "I’m kind of a big deal.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.05
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.05
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Spirochaetes",
+            //     "desc": "Did you just assume my structure?",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 10,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.025
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Synergistetes",
+            //     "desc": "I’m an opportunist.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.001
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Tenericutes",
+            //     "desc": "I bruise easily.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.001
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": -0.001
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Thermodesulfobacteria",
+            //     "desc": "He who smelt it…",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.01
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Thermotogae",
+            //     "desc": "Boiled up nicely.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 10,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.075
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Verrucomicrobia",
+            //     "desc": "Don’t look at me!",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 50,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.025
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+
+            virus:
+            // {
+            //     "name": "Yellow Fever",
+            //     "desc": "Not as colourful as it sounds.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.025
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Zika",
+            //     "desc": "Save the best till last.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.05
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Variola",
+            //     "desc": "Nothing small about these pox.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 50,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.025
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Epstein-Barr",
+            //     "desc": "Really raising the Barr for viruses",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.005
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Rubella",
+            //     "desc": "Not as bad as the other two.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 10,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.005
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Rabies",
+            //     "desc": "Why not pet that foaming dog.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 5,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.05
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "O’nyong-nyong",
+            //     "desc": "No this isn't dengue fever.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.001
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Dengue",
+            //     "desc": "Simplistic but effective.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 50,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.0025
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Encephalomyocarditis",
+            //     "desc": "Might have to think twice about that transplant.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.005
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Hantaan",
+            //     "desc": "Good things always come from the river banks.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.075
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Influenza",
+            //     "desc": "And you thought it was just a cold.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.05
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "MERS",
+            //     "desc": "Don't let those signs go unchecked.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.005
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.005
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Measles",
+            //     "desc": "Scratch it, feels so good!",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.01
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": -0.005
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Mumps",
+            //     "desc": "You've all been so kind.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.05
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.005
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Molluscum Contagiosum",
+            //     "desc": "Just sit it out, you don't look so silly.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.005
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Rift Valley Fever",
+            //     "desc": "Maybe you shouldn't go down to the valley today.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.01
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Simian Virus 5",
+            //     "desc": "Because the first 4 weren't quite right",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 10,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.001
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.001
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Uukuniemi",
+            //     "desc": "Just call me plague mk.2",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.005
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Norovirus",
+            //     "desc": "I’m kind of a big deal.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.05
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.05
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Polio",
+            //     "desc": "I'm sure you've heard of me.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 10,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.075
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Oropouche",
+            //     "desc": "Nothing slow about this one.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 100,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.001
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Sagiyama",
+            //     "desc": "Some of the old ones still pack punch.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.001
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": -0.001
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Vesicular Stomatitis",
+            //     "desc": "You'll be fine, those cows however...",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 25,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.01
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Puumala",
+            //     "desc": "Rats had the plague, what would voles have?",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 10,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0.075
+            //         }
+            //     ]
+            // },
+            // {
+            //     "name": "Duvenhage",
+            //     "desc": "And you though rabies was bad.",
+            "type": "miner",//
+            "cost": 0,
+            //     "boost": 50,
+            //     "modifiers": [
+            //         {
+            //             "type": "contagion",
+            //             "amount": 0.025
+            //         },
+            //         {
+            //             "type": "immunity",
+            //             "amount": 0
+            //         }
+            //     ]
+            // },
