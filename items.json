@@ -1,434 +1,452 @@
 "items": [
     {
-        "bacteria": [
+        "name": "Acidobacterium Capsulatum",
+        "desc": "Rub dirt in their wounds!",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 100000,
+        "boost": 25,
+        "modifiers": [
             {
-                "name": "Acidobacterium Capsulatum",
-                "desc": "Rub dirt in their wounds!",
-                "type": "miner",
-                "cost": 100000,
-                "boost": 25,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.005
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "contagion",
+                "amount": 0.005
             },
             {
-                "name": "Holophaga Foetida",
-                "desc": "Don’t breath!",
-                "type": "miner",
-                "cost": 250000,
-                "boost": 50,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.005
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Holophaga Foetida",
+        "desc": "Don’t breath!",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 250000,
+        "boost": 50,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0.005
             },
             {
-                "name": "Geothrix Fermentans",
-                "desc": "Hope you don’t mind getting your feet wet.",
-                "type": "miner",
-                "cost": 75000,
-                "boost": 25,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0.001
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Geothrix Fermentans",
+        "desc": "Hope you don’t mind getting your feet wet.",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 75000,
+        "boost": 25,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Acanthopleuribacter Pedis",
-                "desc": "Just dipping your toes in.",
-                "type": "miner",
-                "cost": 30000,
-                "boost": 5,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.001
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0.001
+            }
+        ]
+    },
+    {
+        "name": "Acanthopleuribacter Pedis",
+        "desc": "Just dipping your toes in.",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 30000,
+        "boost": 5,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0.001
             },
             {
-                "name": "Bryobacter Aggregatus",
-                "desc": "I love the smell of aerobic cells in the morning.",
-                "type": "miner",
-                "cost": 10000,
-                "boost": 1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.001
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Bryobacter Aggregatus",
+        "desc": "I love the smell of aerobic cells in the morning.",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 10000,
+        "boost": 1,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0.001
             },
             {
-                "name": "Acidothermus Cellulolyticus",
-                "desc": "Yellowstone’s hot tub champion.",
-                "type": "miner",
-                "cost": 75000,
-                "boost": 10,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.001
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0.01
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Acidothermus Cellulolyticus",
+        "desc": "Yellowstone’s hot tub champion.",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 75000,
+        "boost": 10,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0.001
             },
             {
-                "name": "Aquificae",
-                "desc": "Wet wet wet! ",
-                "type": "miner",
-                "cost": 100000,
-                "boost": 100,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0.005
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0.01
+            }
+        ]
+    },
+    {
+        "name": "Aquificae",
+        "desc": "Wet wet wet! ",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 100000,
+        "boost": 100,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Armatimonas Rosea",
-                "desc": "Nothing like a fresh lake of water.",
-                "type": "miner",
-                "cost": 400000,
-                "boost": 100,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.025
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0.005
+            }
+        ]
+    },
+    {
+        "name": "Armatimonas Rosea",
+        "desc": "Nothing like a fresh lake of water.",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 400000,
+        "boost": 100,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0.025
             },
+            {
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
 
+    {
+        "name": "Cell Division",
+        "desc": "Everyone has to start somewhere.",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 10,
+        "boost": 0.1,
+        "modifiers": [
             {
-                "name": "Cell Division",
-                "desc": "Everyone has to start somewhere.",
-                "type": "miner",
-                "cost": 10,
-                "boost": 0.1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Transmission",
-                "desc": "Gets you from A to B.",
-                "type": "miner",
-                "cost": 100,
-                "boost": 1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Transmission",
+        "desc": "Gets you from A to B.",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 100,
+        "boost": 1,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Heterocysts",
-                "desc": "Don’t let the air get you down.",
-                "type": "miner",
-                "cost": 1000,
-                "boost": 10,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Heterocysts",
+        "desc": "Don’t let the air get you down.",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 1000,
+        "boost": 10,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Thermophilic",
-                "desc": "It’s getting hot in here!",
-                "type": "miner",
-                "cost": 10000,
-                "boost": 100,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Thermophilic",
+        "desc": "It’s getting hot in here!",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 10000,
+        "boost": 100,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Bioaerosols",
-                "desc": "Take a deep breath!",
-                "type": "miner",
-                "cost": 100000,
-                "boost": 1000,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
-            },
-        ],
-        "virus": [
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Bioaerosols",
+        "desc": "Take a deep breath!",
+        "type": "miner",
+        "team": "bacteria",
+        "cost": 100000,
+        "boost": 1000,
+        "modifiers": [
             {
-                "name": "Aichi",
-                "desc": "Clear a path, make way!",
-                "type": "miner",
-                "cost": 100000,
-                "boost": 25,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": -0.005
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Banna",
-                "desc": "Person, farm animals, whatever.",
-                "type": "miner",
-                "cost": 250000,
-                "boost": 50,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.005
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Aichi",
+        "desc": "Clear a path, make way!",
+        "team": "virus",
+        "type": "miner",
+        "cost": 100000,
+        "boost": 25,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": -0.005
             },
             {
-                "name": "Cercopithecine",
-                "desc": "Just try to pet those monkeys.",
-                "type": "miner",
-                "cost": 75000,
-                "boost": 25,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0.001
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Banna",
+        "desc": "Person, farm animals, whatever.",
+        "team": "virus",
+        "type": "miner",
+        "cost": 250000,
+        "boost": 50,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0.005
             },
             {
-                "name": "Coxsackie",
-                "desc": "Don't lock up now.",
-                "type": "miner",
-                "cost": 30000,
-                "boost": 5,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.01
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Cercopithecine",
+        "desc": "Just try to pet those monkeys.",
+        "team": "virus",
+        "type": "miner",
+        "cost": 75000,
+        "boost": 25,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Cowpox",
-                "desc": "And we thought chickens had it bad.",
-                "type": "miner",
-                "cost": 10000,
-                "boost": 1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.001
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0.001
+            }
+        ]
+    },
+    {
+        "name": "Coxsackie",
+        "desc": "Don't lock up now.",
+        "team": "virus",
+        "type": "miner",
+        "cost": 30000,
+        "boost": 5,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0.01
             },
             {
-                "name": "Ebola",
-                "desc": "Why not come give me a big hug.",
-                "type": "miner",
-                "cost": 100000,
-                "boost": 10,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.05
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0.001
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Cowpox",
+        "desc": "And we thought chickens had it bad.",
+        "team": "virus",
+        "type": "miner",
+        "cost": 10000,
+        "boost": 1,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0.001
             },
             {
-                "name": "SARS",
-                "desc": "You know what they call bats... deadly.",
-                "type": "miner",
-                "cost": 700000,
-                "boost": 100,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0.05
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Ebola",
+        "desc": "Why not come give me a big hug.",
+        "team": "virus",
+        "type": "miner",
+        "cost": 100000,
+        "boost": 10,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0.05
             },
             {
-                "name": "Sneezing",
-                "desc": "Everyone has to start somewhere.",
-                "type": "miner",
-                "cost": 10,
-                "boost": 0.1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0.001
+            }
+        ]
+    },
+    {
+        "name": "SARS",
+        "desc": "You know what they call bats... deadly.",
+        "team": "virus",
+        "type": "miner",
+        "cost": 700000,
+        "boost": 100,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Gastrointestinal",
-                "desc": "Gets you from on track",
-                "type": "miner",
-                "cost": 100,
-                "boost": 1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0.05
+            }
+        ]
+    },
+    {
+        "name": "Sneezing",
+        "desc": "Everyone has to start somewhere.",
+        "team": "virus",
+        "type": "miner",
+        "cost": 10,
+        "boost": 0.1,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Blood transfusion",
-                "desc": "Sharing is caring.",
-                "type": "miner",
-                "cost": 1000,
-                "boost": 10,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Gastrointestinal",
+        "desc": "Gets you from on track",
+        "team": "virus",
+        "type": "miner",
+        "cost": 100,
+        "boost": 1,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Insects",
-                "desc": "Nasty to look, great to ride.",
-                "type": "miner",
-                "cost": 10000,
-                "boost": 100,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Blood transfusion",
+        "desc": "Sharing is caring.",
+        "team": "virus",
+        "type": "miner",
+        "cost": 1000,
+        "boost": 10,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
             {
-                "name": "Proximity",
-                "desc": "I love a big crowd.",
-                "type": "miner",
-                "cost": 100000,
-                "boost": 1000,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Insects",
+        "desc": "Nasty to look, great to ride.",
+        "team": "virus",
+        "type": "miner",
+        "cost": 10000,
+        "boost": 100,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
             },
+            {
+                "type": "immunity",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "name": "Proximity",
+        "desc": "I love a big crowd.",
+        "team": "virus",
+        "type": "miner",
+        "cost": 100000,
+        "boost": 1000,
+        "modifiers": [
+            {
+                "type": "contagion",
+                "amount": 0
+            },
+            {
+                "type": "immunity",
+                "amount": 0
+            }
         ]
     }
-]
