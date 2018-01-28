@@ -1,14 +1,11 @@
 @app.route("/api")
-def hello():
-    return "Hello GGJ2018!"
 
-
+    -- Returns hello world
 
 
 @app.route('/api/landmarks', methods=['GET'])
 
     -- Returns all landmarks
-
 
 
 
@@ -29,49 +26,12 @@ def hello():
 
 
 
-
 @app.route('/api/user', methods=["GET","POST"])
-def user():
-    error = ''
-    try:
 
-        if request.method == "POST":
-            userid = request.headers["userid"]
-            content = request.json
-            if userid and content:
-                team=content["team"]
-                response = user_info.create_user_info(userid, team)
-            return str(response)
+    -- Requires "userid" headers with device id value
+    -- If posting(creating user), also needs a "team" json content
 
-        if request.method == "GET":
-            userid = request.headers["userid"]
-            if userid:
-                info = user_info.get_user_info(userid)
-                return str(info)
-            else:
-                return "No userid provided, send me thats userid!"
 
-    except Exception as e:
-        return "Error! Unable to perform /api/user request"
-
-#Updates given user's info
 @app.route('/api/user/update', methods=["POST"])
-def updateUser():
-    error = ''
-    try:
-        userid = request.headers["userid"]
-        content = request.json
-        print(userid)
-        print(content)
-        if userid and content:
-            print("Updating user info")
-            response = user_info.update_user_info(userid, content)
-            return str(response)
 
-    except Exception as e:
-        return "Error! Unable to perform /api/user/update request"
-
-if __name__ == '__main__':
-
-    app.run('0.0.0.0', 5000)
-
+    -- Update any user attributes using keys returned from GET /api/user
