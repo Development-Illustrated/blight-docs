@@ -3,121 +3,163 @@
         "bacteria": [
             {
                 "name": "Acidobacterium Capsulatum",
+                "type": "miner",
                 "description": "Rub dirt in their wounds!",
-                "cost": 100000,
-                "resource": 25,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.005
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "price": 100000,
+                "boost": 25,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0.005
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
             {
                 "name": "Holophaga Foetida",
+                "type": "miner",
                 "description": "Don’t breath!",
-                "cost": 250000,
-                "resource": 50,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.005
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "price": 250000,
+                "boost": 50,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0.005
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
             {
                 "name": "Geothrix Fermentans",
+                "type": "miner",
                 "description": "Hope you don’t mind getting your feet wet.",
-                "cost": 75000,
-                "resource": 25,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0.001
-                    }
-                ]
+                "price": 75000,
+                "boost": 25,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0.001
+                //     }
+                // ]
             },
             {
                 "name": "Acanthopleuribacter Pedis",
+                "type": "miner",
                 "description": "Just dipping your toes in.",
-                "cost": 30000,
-                "resource": 5,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.001
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "price": 30000,
+                "boost": 5,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0.001
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
             {
                 "name": "Bryobacter Aggregatus",
+                "type": "miner",
                 "description": "I love the smell of aerobic cells in the morning.",
-                "cost": 10000,
-                "resource": 1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.001
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "price": 10000,
+                "boost": 1,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0.001
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
             {
                 "name": "Acidothermus Cellulolyticus",
+                "type": "miner",
                 "description": "Yellowstone’s hot tub champion.",
-                "cost": 75000,
-                "resource": 10,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.001
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0.01
-                    }
-                ]
+                "price": 75000,
+                "boost": 10,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0.001
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0.01
+                //     }
+                // ]
             },
             {
                 "name": "Aquificae",
+                "type": "miner",
                 "description": "Wet wet wet! ",
-                "cost": 100000,
-                "resource": 100,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0.005
-                    }
-                ]
+                "price": 100000,
+                "boost": 100,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0.005
+                //     }
+                // ]
             },
             {
                 "name": "Armatimonas Rosea",
+                "type": "miner",
                 "description": "Nothing like a fresh lake of water.",
-                "cost": 400000,
-                "resource": 100,
+                "price": 400000,
+                "boost": 100,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0.025
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
+            },
+            // {
+            //     "name": "Chthonomonas Calidirosea",
+            "type": "miner",//
+            "description": "Hot from the mouth of Hell’s Gate.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Bacteroidetes",
+            "type": "miner",//
+            "description": "These can come from either side.",
+          price     "cost": 0,
+          boost "resource": 50,
                 "modifiers": [
                     {
                         "type": "contagion",
@@ -128,494 +170,81 @@
                         "amount": 0
                     }
                 ]
-            },
-            // {
-            //     "name": "Chthonomonas Calidirosea",
-            //     "description": "Hot from the mouth of Hell’s Gate.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.05
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Bacteroidetes",
-            //     "description": "These can come from either side.",
-            //     "cost": 0,
-            //     "resource": 50,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.025
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
             // },
             // {
             //     "name": "Caldisericum Exile",
-            //     "description": "Be hot, be unique.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.005
-            //         }
-            //     ]
+            "type": "miner",//
+            "description": "Be hot, be unique.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
             // },
             // {
             //     "name": "Chlorobi",
-            //     "description": "We’ve got to go deeper!",
-            //     "cost": 0,
-            //     "resource": 5,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.05
-            //         }
-            //     ]
+            "type": "miner",//
+            "description": "We’ve got to go deeper!",
+          price     "cost": 0,
+          boost "resource": 5,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.05
+                    }
+                ]
             // },
             // {
             //     "name": "Chloroflexi",
-            //     "description": "Let it shine!",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.001
-            //         }
-            //     ]
+            "type": "miner",//
+            "description": "Let it shine!",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.001
+                    }
+                ]
             // },
             // {
             //     "name": "Chrysiogenes arsenatis",
-            //     "description": "Oxygen or arsenic? It’s all the same to me.",
-            //     "cost": 0,
-            //     "resource": 50,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.0025
-            //         }
-            //     ]
+            "type": "miner",//
+            "description": "Oxygen or arsenic? It’s all the same to me.",
+          price     "cost": 0,
+          boost "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.0025
+                    }
+                ]
             // },
             // {
             //     "name": "Deferribacteres",
-            //     "description": "Just charge me up and see me go.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.005
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Deinococcus-Thermus",
-            //     "description": "Thick skinned but a softie inside.",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.075
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Dictyoglomus Thermophilum",
-            //     "description": "Is it hot in here or is it just me?",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.075
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.005
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Elusimicrobia",
-            //     "description": "You’re never more than 30ft away.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.05
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Fibrobacter Succinogenes",
-            //     "description": "Get those gains!",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.005
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Firmicutes",
-            //     "description": "Letting the guard down.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.01
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": -0.005
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Fusobacteria",
-            //     "description": "Don’t let this touch you.",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.05
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.005
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Gemmatimonadetes",
-            //     "description": "Don’t you step on me!",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.025
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Lentisphaerae",
-            //     "description": "I’ve just got that gut feeling, ya know?",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.01
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Nitrospirae",
-            //     "description": "I’m not lonely, I’m unique.",
-            //     "cost": 0,
-            //     "resource": 10,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.001
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.001
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Planctomycetes",
-            //     "description": "I’m a budding bacteria!",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.005
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Proteobacteria",
-            //     "description": "I’m kind of a big deal.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.05
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.05
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Spirochaetes",
-            //     "description": "Did you just assume my structure?",
-            //     "cost": 0,
-            //     "resource": 10,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.025
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Synergistetes",
-            //     "description": "I’m an opportunist.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.001
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Tenericutes",
-            //     "description": "I bruise easily.",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.001
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": -0.001
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Thermodesulfobacteria",
-            //     "description": "He who smelt it…",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.01
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Thermotogae",
-            //     "description": "Boiled up nicely.",
-            //     "cost": 0,
-            //     "resource": 10,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.075
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Verrucomicrobia",
-            //     "description": "Don’t look at me!",
-            //     "cost": 0,
-            //     "resource": 50,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.025
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            {
-                "name": "Cell Division",
-                "description": "Everyone has to start somewhere.",
-                "cost": 10,
-                "resource": 0.1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
-            },
-            {
-                "name": "Transmission",
-                "description": "Gets you from A to B.",
-                "cost": 100,
-                "resource": 1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
-            },
-            {
-                "name": "Heterocysts",
-                "description": "Don’t let the air get you down.",
-                "cost": 1000,
-                "resource": 10,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
-            },
-            {
-                "name": "Thermophilic",
-                "description": "It’s getting hot in here!",
-                "cost": 10000,
-                "resource": 100,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
-            },
-            {
-                "name": "Bioaerosols",
-                "description": "Take a deep breath!",
-                "cost": 100000,
-                "resource": 1000,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
-            },
-        ],
-        "virus": [
-            {
-                "name": "Aichi",
-                "description": "Clear a path, make way!",
-                "cost": 100000,
-                "resource": 25,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": -0.005
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
-            },
-            {
-                "name": "Banna",
-                "description": "Person, farm animals, whatever.",
-                "cost": 250000,
-                "resource": 50,
+            "type": "miner",//
+            "description": "Just charge me up and see me go.",
+          price     "cost": 0,
+          boost "resource": 100,
                 "modifiers": [
                     {
                         "type": "contagion",
@@ -626,12 +255,13 @@
                         "amount": 0
                     }
                 ]
-            },
-            {
-                "name": "Cercopithecine",
-                "description": "Just try to pet those monkeys.",
-                "cost": 75000,
-                "resource": 25,
+            // },
+            // {
+            //     "name": "Deinococcus-Thermus",
+            "type": "miner",//
+            "description": "Thick skinned but a softie inside.",
+          price     "cost": 0,
+          boost "resource": 25,
                 "modifiers": [
                     {
                         "type": "contagion",
@@ -639,15 +269,67 @@
                     },
                     {
                         "type": "immunity",
-                        "amount": 0.001
+                        "amount": 0.075
                     }
                 ]
-            },
-            {
-                "name": "Coxsackie",
-                "description": "Don't lock up now.",
-                "cost": 30000,
-                "resource": 5,
+            // },
+            // {
+            //     "name": "Dictyoglomus Thermophilum",
+            "type": "miner",//
+            "description": "Is it hot in here or is it just me?",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.075
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Elusimicrobia",
+            "type": "miner",//
+            "description": "You’re never more than 30ft away.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Fibrobacter Succinogenes",
+            "type": "miner",//
+            "description": "Get those gains!",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Firmicutes",
+            "type": "miner",//
+            "description": "Letting the guard down.",
+          price     "cost": 0,
+          boost "resource": 100,
                 "modifiers": [
                     {
                         "type": "contagion",
@@ -655,537 +337,929 @@
                     },
                     {
                         "type": "immunity",
+                        "amount": -0.005
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Fusobacteria",
+            "type": "miner",//
+            "description": "Don’t let this touch you.",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Gemmatimonadetes",
+            "type": "miner",//
+            "description": "Don’t you step on me!",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.025
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Lentisphaerae",
+            "type": "miner",//
+            "description": "I’ve just got that gut feeling, ya know?",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.01
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Nitrospirae",
+            "type": "miner",//
+            "description": "I’m not lonely, I’m unique.",
+          price     "cost": 0,
+          boost "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.001
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Planctomycetes",
+            "type": "miner",//
+            "description": "I’m a budding bacteria!",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
                         "amount": 0
                     }
                 ]
+            // },
+            // {
+            //     "name": "Proteobacteria",
+            "type": "miner",//
+            "description": "I’m kind of a big deal.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.05
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Spirochaetes",
+            "type": "miner",//
+            "description": "Did you just assume my structure?",
+          price     "cost": 0,
+          boost "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Synergistetes",
+            "type": "miner",//
+            "description": "I’m an opportunist.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Tenericutes",
+            "type": "miner",//
+            "description": "I bruise easily.",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": -0.001
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Thermodesulfobacteria",
+            "type": "miner",//
+            "description": "He who smelt it…",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.01
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Thermotogae",
+            "type": "miner",//
+            "description": "Boiled up nicely.",
+          price     "cost": 0,
+          boost "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.075
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Verrucomicrobia",
+            "type": "miner",//
+            "description": "Don’t look at me!",
+          price     "cost": 0,
+          boost "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            {
+                "name": "Cell Division",
+                "type": "miner",
+                "description": "Everyone has to start somewhere.",
+                "price": 10,
+                "boost": 0.1,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
+            },
+            {
+                "name": "Transmission",
+                "type": "miner",
+                "description": "Gets you from A to B.",
+                "price": 100,
+                "boost": 1,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
+            },
+            {
+                "name": "Heterocysts",
+                "type": "miner",
+                "description": "Don’t let the air get you down.",
+                "price": 1000,
+                "boost": 10,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
+            },
+            {
+                "name": "Thermophilic",
+                "type": "miner",
+                "description": "It’s getting hot in here!",
+                "price": 10000,
+                "boost": 100,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
+            },
+            {
+                "name": "Bioaerosols",
+                "type": "miner",
+                "description": "Take a deep breath!",
+                "price": 100000,
+                "boost": 1000,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
+            },
+        ],
+        "virus": [
+            {
+                "name": "Aichi",
+                "type": "miner",
+                "description": "Clear a path, make way!",
+                "price": 100000,
+                "boost": 25,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": -0.005
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
+            },
+            {
+                "name": "Banna",
+                "type": "miner",
+                "description": "Person, farm animals, whatever.",
+                "price": 250000,
+                "boost": 50,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0.005
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
+            },
+            {
+                "name": "Cercopithecine",
+                "type": "miner",
+                "description": "Just try to pet those monkeys.",
+                "price": 75000,
+                "boost": 25,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0.001
+                //     }
+                // ]
+            },
+            {
+                "name": "Coxsackie",
+                "type": "miner",
+                "description": "Don't lock up now.",
+                "price": 30000,
+                "boost": 5,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0.01
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
             {
                 "name": "Cowpox",
+                "type": "miner",
                 "description": "And we thought chickens had it bad.",
-                "cost": 10000,
-                "resource": 1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0.001
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "price": 10000,
+                "boost": 1,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0.001
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
             {
                 "name": "Ebola",
+                "type": "miner",
                 "description": "Why not come give me a big hug.",
-                "cost": 100000,
-                "resource": 10,
+                "price": 100000,
+                "boost": 10,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0.05
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0.001
+                //     }
+                // ]
+            },
+            {
+                "name": "SARS",
+                "type": "miner",
+                "description": "You know what they call bats... deadly.",
+                "price": 700000,
+                "boost": 100,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0.05
+                //     }
+                // ]
+            },
+            // {
+            //     "name": "Yellow Fever",
+            "type": "miner",//
+            "description": "Not as colourful as it sounds.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Zika",
+            "type": "miner",//
+            "description": "Save the best till last.",
+          price     "cost": 0,
+          boost "resource": 100,
                 "modifiers": [
                     {
                         "type": "contagion",
                         "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Variola",
+            "type": "miner",//
+            "description": "Nothing small about these pox.",
+          price     "cost": 0,
+          boost "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Epstein-Barr",
+            "type": "miner",//
+            "description": "Really raising the Barr for viruses",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Rubella",
+            "type": "miner",//
+            "description": "Not as bad as the other two.",
+          price     "cost": 0,
+          boost "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Rabies",
+            "type": "miner",//
+            "description": "Why not pet that foaming dog.",
+          price     "cost": 0,
+          boost "resource": 5,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.05
+                    }
+                ]
+            // },
+            // {
+            //     "name": "O’nyong-nyong",
+            "type": "miner",//
+            "description": "No this isn't dengue fever.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
                     },
                     {
                         "type": "immunity",
                         "amount": 0.001
                     }
                 ]
-            },
-            {
-                "name": "SARS",
-                "description": "You know what they call bats... deadly.",
-                "cost": 700000,
-                "resource": 100,
+            // },
+            // {
+            //     "name": "Dengue",
+            "type": "miner",//
+            "description": "Simplistic but effective.",
+          price     "cost": 0,
+          boost "resource": 50,
                 "modifiers": [
                     {
                         "type": "contagion",
                         "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.0025
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Encephalomyocarditis",
+            "type": "miner",//
+            "description": "Might have to think twice about that transplant.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Hantaan",
+            "type": "miner",//
+            "description": "Good things always come from the river banks.",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.075
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Influenza",
+            "type": "miner",//
+            "description": "And you thought it was just a cold.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "MERS",
+            "type": "miner",//
+            "description": "Don't let those signs go unchecked.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Measles",
+            "type": "miner",//
+            "description": "Scratch it, feels so good!",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.01
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": -0.005
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Mumps",
+            "type": "miner",//
+            "description": "You've all been so kind.",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Molluscum Contagiosum",
+            "type": "miner",//
+            "description": "Just sit it out, you don't look so silly.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.005
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Rift Valley Fever",
+            "type": "miner",//
+            "description": "Maybe you shouldn't go down to the valley today.",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.01
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Simian Virus 5",
+            "type": "miner",//
+            "description": "Because the first 4 weren't quite right",
+          price     "cost": 0,
+          boost "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.001
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Uukuniemi",
+            "type": "miner",//
+            "description": "Just call me plague mk.2",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.005
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
+            // },
+            // {
+            //     "name": "Norovirus",
+            "type": "miner",//
+            "description": "I’m kind of a big deal.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.05
                     },
                     {
                         "type": "immunity",
                         "amount": 0.05
                     }
                 ]
-            },
-            // {
-            //     "name": "Yellow Fever",
-            //     "description": "Not as colourful as it sounds.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.025
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Zika",
-            //     "description": "Save the best till last.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.05
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Variola",
-            //     "description": "Nothing small about these pox.",
-            //     "cost": 0,
-            //     "resource": 50,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.025
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Epstein-Barr",
-            //     "description": "Really raising the Barr for viruses",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.005
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Rubella",
-            //     "description": "Not as bad as the other two.",
-            //     "cost": 0,
-            //     "resource": 10,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.005
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Rabies",
-            //     "description": "Why not pet that foaming dog.",
-            //     "cost": 0,
-            //     "resource": 5,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.05
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "O’nyong-nyong",
-            //     "description": "No this isn't dengue fever.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.001
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Dengue",
-            //     "description": "Simplistic but effective.",
-            //     "cost": 0,
-            //     "resource": 50,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.0025
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Encephalomyocarditis",
-            //     "description": "Might have to think twice about that transplant.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.005
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Hantaan",
-            //     "description": "Good things always come from the river banks.",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.075
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Influenza",
-            //     "description": "And you thought it was just a cold.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.05
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "MERS",
-            //     "description": "Don't let those signs go unchecked.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.005
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.005
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Measles",
-            //     "description": "Scratch it, feels so good!",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.01
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": -0.005
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Mumps",
-            //     "description": "You've all been so kind.",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.05
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.005
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Molluscum Contagiosum",
-            //     "description": "Just sit it out, you don't look so silly.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.005
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Rift Valley Fever",
-            //     "description": "Maybe you shouldn't go down to the valley today.",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.01
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Simian Virus 5",
-            //     "description": "Because the first 4 weren't quite right",
-            //     "cost": 0,
-            //     "resource": 10,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.001
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.001
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Uukuniemi",
-            //     "description": "Just call me plague mk.2",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.005
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
-            // },
-            // {
-            //     "name": "Norovirus",
-            //     "description": "I’m kind of a big deal.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.05
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.05
-            //         }
-            //     ]
             // },
             // {
             //     "name": "Polio",
-            //     "description": "I'm sure you've heard of me.",
-            //     "cost": 0,
-            //     "resource": 10,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.075
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
+            "type": "miner",//
+            "description": "I'm sure you've heard of me.",
+          price     "cost": 0,
+          boost "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.075
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
             // },
             // {
             //     "name": "Oropouche",
-            //     "description": "Nothing slow about this one.",
-            //     "cost": 0,
-            //     "resource": 100,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.001
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
+            "type": "miner",//
+            "description": "Nothing slow about this one.",
+          price     "cost": 0,
+          boost "resource": 100,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
             // },
             // {
             //     "name": "Sagiyama",
-            //     "description": "Some of the old ones still pack punch.",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.001
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": -0.001
-            //         }
-            //     ]
+            "type": "miner",//
+            "description": "Some of the old ones still pack punch.",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.001
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": -0.001
+                    }
+                ]
             // },
             // {
             //     "name": "Vesicular Stomatitis",
-            //     "description": "You'll be fine, those cows however...",
-            //     "cost": 0,
-            //     "resource": 25,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.01
-            //         }
-            //     ]
+            "type": "miner",//
+            "description": "You'll be fine, those cows however...",
+          price     "cost": 0,
+          boost "resource": 25,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.01
+                    }
+                ]
             // },
             // {
             //     "name": "Puumala",
-            //     "description": "Rats had the plague, what would voles have?",
-            //     "cost": 0,
-            //     "resource": 10,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0.075
-            //         }
-            //     ]
+            "type": "miner",//
+            "description": "Rats had the plague, what would voles have?",
+          price     "cost": 0,
+          boost "resource": 10,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0.075
+                    }
+                ]
             // },
             // {
             //     "name": "Duvenhage",
-            //     "description": "And you though rabies was bad.",
-            //     "cost": 0,
-            //     "resource": 50,
-            //     "modifiers": [
-            //         {
-            //             "type": "contagion",
-            //             "amount": 0.025
-            //         },
-            //         {
-            //             "type": "immunity",
-            //             "amount": 0
-            //         }
-            //     ]
+            "type": "miner",//
+            "description": "And you though rabies was bad.",
+          price     "cost": 0,
+          boost "resource": 50,
+                "modifiers": [
+                    {
+                        "type": "contagion",
+                        "amount": 0.025
+                    },
+                    {
+                        "type": "immunity",
+                        "amount": 0
+                    }
+                ]
             // },
             {
                 "name": "Sneezing",
+                "type": "miner",
                 "description": "Everyone has to start somewhere.",
-                "cost": 10,
-                "resource": 0.1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "price": 10,
+                "boost": 0.1,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
             {
                 "name": "Gastrointestinal",
+                "type": "miner",
                 "description": "Gets you from on track",
-                "cost": 100,
-                "resource": 1,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "price": 100,
+                "boost": 1,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
             {
                 "name": "Blood transfusion",
+                "type": "miner",
                 "description": "Sharing is caring.",
-                "cost": 1000,
-                "resource": 10,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "price": 1000,
+                "boost": 10,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
             {
                 "name": "Insects",
+                "type": "miner",
                 "description": "Nasty to look, great to ride.",
-                "cost": 10000,
-                "resource": 100,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "price": 10000,
+                "boost": 100,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
             {
                 "name": "Proximity",
+                "type": "miner",
                 "description": "I love a big crowd.",
-                "cost": 100000,
-                "resource": 1000,
-                "modifiers": [
-                    {
-                        "type": "contagion",
-                        "amount": 0
-                    },
-                    {
-                        "type": "immunity",
-                        "amount": 0
-                    }
-                ]
+                "price": 100000,
+                "boost": 1000,
+                // "modifiers": [
+                //     {
+                //         "type": "contagion",
+                //         "amount": 0
+                //     },
+                //     {
+                //         "type": "immunity",
+                //         "amount": 0
+                //     }
+                // ]
             },
         ]
     }
