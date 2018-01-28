@@ -1,0 +1,55 @@
+Introduction:
+Hello I’m done, part of the team Development Illustrated or Dev. Il.
+(Devil makes work for idle hands).
+We took the theme of transmission and went down to a microscopic level.
+What else travels by transmission other than bacteria and viruses.
+Spent the last 48 slaving over our game Blight.
+* Inspiration:
+We took inspiration from Niantic, creators of one of the biggest mobile game phenomenons, Ingress, and something about cartoon animals.
+We also took inspiration from games such as cookie clicker, simplistic design and game play that anyone can get into.
+* Aims:
+We set out to make an easily accessible mobile game encouraging team work and exploration of the outside world.
+* Overview:
+Blight is a game of two sides, bacteria vs viruses and you are the carriers.
+These new waring pathogens are fighting for control over the population and you’re helping them spread.
+Being around those carrying the same infection well benefit it and help it grow faster, and the faster you grow the more it hinders the other side.
+Our initial scope was pretty vast, including random game changing events that would level the playing field or encourage team work between sides. (Health bombs/ Pandemics)
+* Game play:
+You can tap your chosen pathogen and increase your counter.
+With that you can use  it to buy up a range of upgrades which your cell can use.
+Some upgrades are cheap and only increase the auto counter.
+Some upgrade your pressure, the influence you have on the world around you.
+Some increase your contagion, so when attacking locations those cells are worth more.
+    (Increase cell count when attacking e.g. a 50% increase means 10 cells are worth 15 on attack, players/location increase in pressure on players)
+
+Some increase your immunity, mean the other team has less power over you.
+    (Decrease the percentage effect each player/location has on you, locations also gain boosted defence e.g. 100% on immunity means 10 attacking cells are worth 5)
+
+Our game encourages team play as being around those of your same team increases your auto counter by a small percent depending on how many counts you have.
+    (Capped at 5% per player at 1,000,000 counts)
+If you have a high contagion rate that cap increase, a high immunity lowers the cap the other players have against you.
+    (Maximum resource output capped at 175%)
+But when your allies help your auto counter increase, nearby enemy players auto counter decreases by the same amount.
+    (Minimum resource output capped at 25%)
+
+Some greatly increase your auto counter, others increase how deadly your cell becomes.
+However you can give cells to a host location in a game of tug-of-war across the world.
+You can sacrifice some of those upgrade and give up to nine to the host location, increasing its contagion strength, its immunity and decreasing its rate of degeneration.
+Keep an eye on the host locations though as they can degrade back to a neutral state if left unattended for too long.
+    (Will lose upgrades when control is lost of location)
+The benefits to holding more host locations is that it can increase your auto count rate by at least 50%/decrease the enemies by the same.
+* Behind the scenes
+(I’ll trust you guys to write this)
+* Future Implementation:
+We would have like to add the random events.
+One use items people can use to get a boost/infect host locations.
+Unique items for beating host sites (scaled on infection contribution)
+Regular scoring system to see who the top infector is plus bonuses to the most effective infector is in local areas/globally.
+Various name generation using active items.
+Balanced items/More items.
+Host location exponential decay?
+Pressure gradient on peoples/locations area of effects.
+Infection heat maps.
+Player pressure on host locations
+
+* Questions?
